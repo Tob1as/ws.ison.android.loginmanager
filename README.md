@@ -1,4 +1,4 @@
 LoginManager
 ===================
 
-ws.ison.mainz.wohnheim.loginmanager
+ws.ison.android.mainz.wohnheim.loginmanager
