@@ -3,11 +3,13 @@
 
     <string name="app_name">LoginManager</string>
     <string name="action_settings">Settings</string>
-    <string name="service_started">LoginManager run!</string>
-    <string name="info">Enter the ZDV-Account Data and save these. Then start the service.</string>
+    <string name="service_started">Service for auto login runs!</string>
+    <string name="info1">1. Enter the ZDV-Account and save.</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="save">Save</string>
     <string name="service">Start/Stop</string>
+    <string name="info2">2. Start or Stop the service for auto login.</string>
+    <string name="info">This app can only be used in dormitories of Studierendenwerk-Mainz to logging into the Internet!</string>
 
 </resources>

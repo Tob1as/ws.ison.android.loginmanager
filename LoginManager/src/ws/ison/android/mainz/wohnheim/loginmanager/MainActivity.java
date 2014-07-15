@@ -84,6 +84,13 @@ public class MainActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 	
+	@Override
+	public void onBackPressed() {
+		finish();
+		//Log.i("LoginManager", "onBackPressed");
+	    super.onBackPressed();
+	}
+	
 	private void saveAccountData(){
 		Editor prefEditor = preferences.edit();
 		prefEditor.putString(helper.USERNAME, username);
