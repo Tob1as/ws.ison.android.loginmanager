@@ -12,8 +12,8 @@ It will start a service in the background, which the device automatically log in
 
 Download and more
 -----------------
-- Google PlayStore (Coming Soon)
-- Website (Coming Soon)
+- Google PlayStore - https://play.google.com/store/apps/details?id=ws.ison.android.loginmanager
+- GitHub - see Releases
 
 License
 -------
