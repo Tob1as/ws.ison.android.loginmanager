@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
 		if (!preferences.getString(Helper.USERNAME, "").equals("") && !preferences.getString(Helper.PASSWORD, "").equals("")){
 			username.setText(preferences.getString(Helper.USERNAME, ""));
 			password.setText(preferences.getString(Helper.PASSWORD, ""));
-			Log.i("LoginManager-MainActivity", "Set USERNAME '"+preferences.getString(Helper.USERNAME, "")+"' and PASSWORD into the EditText!");
+			Log.i("LoginManager-MainActivity", "Set USERNAME "+preferences.getString(Helper.USERNAME, "")+" and PASSWORD into the EditText!");
 		}
 		
 		// Button: save
@@ -55,7 +55,7 @@ public class MainActivity extends Activity {
 					prefEditor.putString(Helper.PASSWORD, password.getText().toString());
 					prefEditor.commit();
 					
-					Log.i("LoginManager-MainActivity", "Save USERNAME '"+username+"' and PASSWORD!");
+					Log.i("LoginManager-MainActivity", "Save USERNAME and PASSWORD!");
 			    	Toast.makeText(getApplicationContext(), R.string.account_data_save, Toast.LENGTH_SHORT).show();
 		    	} else {
 		    		Toast.makeText(getApplicationContext(), R.string.account_data_enter, Toast.LENGTH_SHORT).show();

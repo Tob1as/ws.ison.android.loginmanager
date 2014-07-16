@@ -63,7 +63,7 @@ public class Helper {
 		boolean reachable = false;
 		try {
 			reachable = InetAddress.getByName(host).isReachable(5000);
-			Log.i("LoginManager-Helper", "Host "+host+" is "+reachable);
+			Log.i("LoginManager-Helper", "Host "+host+" is reachable "+reachable);
 		} catch (Exception e) {
 			//e.printStackTrace();
 			Log.e("LoginManager-Helper", "Host check failed!");

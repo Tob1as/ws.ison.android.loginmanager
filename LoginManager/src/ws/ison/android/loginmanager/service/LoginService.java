@@ -70,7 +70,7 @@ public class LoginService extends Service {
 		preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
 		this.username = preferences.getString(Helper.USERNAME, "");
 		this.password = preferences.getString(Helper.PASSWORD, "");
-		Log.i("LoginManager-Service", "Read USERNAME '"+username+"' and PASSWORD from settings and write into variables!");
+		Log.i("LoginManager-Service", "Read USERNAME "+username+" and PASSWORD from settings and write into variables!");
 
 		return START_STICKY;
 	}
