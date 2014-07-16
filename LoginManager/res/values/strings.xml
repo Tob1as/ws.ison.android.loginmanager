@@ -11,5 +11,9 @@
     <string name="service">Start/Stop</string>
     <string name="info2">2. Start or Stop the service for auto login.</string>
     <string name="info">This app can only be used in dormitories of Studierendenwerk-Mainz to logging into the Internet!</string>
+    <string name="account_data_enter">Enter the account data!</string>
+    <string name="service_enable">Service enable!</string>
+    <string name="service_disable">Service disable!</string>
+    <string name="account_data_save">Save!</string>
 
 </resources>
