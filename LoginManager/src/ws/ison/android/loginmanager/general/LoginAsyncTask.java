@@ -25,7 +25,7 @@ public class LoginAsyncTask extends AsyncTask<String, Integer, Double>{
 		
 		String username = params[0];
 		String password = params[1];
-		//Log.i("LoginManager-ServiceAsyncTask", "Read USERNAME '"+username+"' and PASSWORD!");
+		//Log.i("LoginManager-ServiceAsyncTask", "Read USERNAME "+username+" and PASSWORD!");
 		
 		/*
 		 * HTTP Client

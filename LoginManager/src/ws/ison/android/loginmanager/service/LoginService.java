@@ -29,7 +29,8 @@ public class LoginService extends Service {
 	
 	private Timer timer = new Timer();
 	private int delay = 5000; // 1000 = 1sec, 5000 = 5sec
-	private int period = 30000; // 60000 = 60sec (900000 = 15min)
+	private int period = 60000; // 60000 = 60sec = 1min (900000 = 15min)
+	// TODO timer period as settings in Activity
 	
 	private SharedPreferences preferences;
 	private NotificationManager mNotificationManager;

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LoginManager</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="service_started">Service für auto Login läuft!</string>
+    <string name="info1">1. ZDV-Account eingeben und speichern.</string>
+    <string name="username">Benutzername</string>
+    <string name="password">Passwort</string>
+    <string name="save">Speichern</string>
+    <string name="service">Start/Stopp</string>
+    <string name="info2">2. Starte oder Stoppe den Service für automatisches Login.</string>
+    <string name="info">Diese App kann nur in Wohnheimen des Studierendenwerk-Mainz zur Internet-Anmeldung verwendet werden!</string>
+    <string name="account_data_enter">Account Daten eingeben!</string>
+    <string name="service_enable">Service aktiviert!</string>
+    <string name="service_disable">Service deaktiviert!</string>
+    <string name="account_data_save">Gespeichert!</string>
+
+</resources>
