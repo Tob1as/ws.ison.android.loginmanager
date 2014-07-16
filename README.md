@@ -1,6 +1,6 @@
-LoginManager  (ws.ison.android.loginmanager)
+LoginManager
 ===================
-
+ws.ison.android.loginmanager
 
 
 Description
