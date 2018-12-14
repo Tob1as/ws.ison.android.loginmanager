@@ -14,7 +14,3 @@ Download and more
 -----------------
 - Google PlayStore - https://play.google.com/store/apps/details?id=ws.ison.android.loginmanager
 - GitHub - see Releases
-
-License
--------
-CC by-sa http://creativecommons.org/licenses/by-sa/3.0/
